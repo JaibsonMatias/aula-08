@@ -13,10 +13,10 @@
            placeholder="ex:. João Silva"/>
 
            <label>Digite seu telefone:</label>
-           <input type="text" name="telefone"/>
+           <input type="text" name="telefone"/> 
 
            <label>Digite seu email:</label>
-           <input type="text" name="email"/>
+           <input type="email" name="email" requiredminlength="2" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"/>
 
            <input type="submit" value="Enviar para o servidor">
         </form>
